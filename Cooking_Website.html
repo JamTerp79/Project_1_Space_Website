@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cooking Recipes</title>
+	<link rel="stylesheet" type="text/css" href="Cooking.css">
+</head>
+<body>
+	<header>
+		<h1>Cooking Recipes</h1>
+		<nav>
+			<ul>
+				<li><a href="#recipes-section">Recipes</a></li>
+				<li><a href="#contact-form">Contact</a></li>
+			</ul>
+		</nav>
+		<a href="#recipes-section"><button>Get Started</button></a>
+	</header>
+
+	<main>
+		<section id="recipes-section">
+			<h2>Recipes</h2>
+			<h3>Italian Cuisine</h3>
+			<div class="gallery">
+				<img src="./images/thumb/italian_recipe_1.jpg" alt="Italian Recipe 1" width="100" height="100">
+				<img src="./images/thumb/italian_recipe_2.jpg" alt="Italian Recipe 2" width="100" height="100">
+				<img src="./images/thumb/italian_recipe_3.jpg" alt="Italian Recipe 3" width="100" height="100">
+			</div>
+			<form>
+				<label for="recipe-search">Search Recipes:</label>
+				<input type="text" id="recipe-search" name="recipe-search">
+				<input type="submit" value="Search">
+			</form>
+			<div class="video-section">
+				<h4>How to Make Spaghetti Carbonara</h4>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/5t7JLjr1FxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			<a href="#contact-form"><button>Contact Us</button></a>
+		</section>
+
+		<section id="contact-form">
+			<h2>Contact Us</h2>
+			<p>Please fill out the form below to contact us.</p>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+
+				<label for="subject">Subject:</label>
+				<input type="text" id="subject" name="subject"><br>
+
+				<label for="message">Message:</label><br>
+				<textarea id="message" name="message"></textarea><br>
+
+				<input type="submit" value="Submit">
+			</form>
+			<a href="#recipes-section"><button>Back to Recipes</button></a>
+		</section>
+	</main>
+
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="#recipes-section">Recipes</a></li>
+				<li><a href="#contact-form">Contact</a></li>
+			</ul>
+		</nav>
+		<p>&copy; 2023 Cooking Recipes. All rights reserved.</p>
+		<p>Contact us at <a href="mailto:contact@cookingrecipes.com">contact@cookingrecipes.com</a></p>
+		<div class="social-media-links">
+			<a href="https://www.facebook.com/cookingrecipes"><img src="facebook-icon.png" alt="Facebook"></a>
+			<a href="https://www.twitter.com/cookingrecipes"><img src"twitter-icon.png" alt="Twitter"></a>
+			<a href="https://www.instagram.com/cookingrecipes"><img src="instagram-icon.png" alt="Instagram"></a>
+		</div>
+	</footer>
+
+</body>
+</html>

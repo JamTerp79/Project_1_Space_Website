@@ -1,0 +1,152 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Main styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+section h2 {
+    color: #333;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery img {
+    margin-bottom: 20px;
+}
+
+.video-section {
+    margin: 40px 0;
+}
+
+.video-section h4 {
+    margin-top: 0;
+}
+
+/* Contact form styles */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+}
+
+form input[type="submit"]:hover {
+    background-color: white;
+    color: #333;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-media-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media-links img {
+    height: 30px;
+    width: 30px;
+}
