@@ -146,7 +146,7 @@ section {
                 HOME SECTION STYLES
 ---------------------------------------------------------------------------*/
 #home   {
-    background: url(../images/background_planets.jpg) no-repeat 50% 50%;
+    background: url(../images/Thumb/background_planets.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -166,7 +166,7 @@ section {
     color: #fff;
     letter-spacing: 5pt;
     word-spacing: 21pt;
-    font-size: 4.5cm;
+    font-size: 4.5em;
     text-align: left;
     font-family: impact, sans-serif;
     line-height: 2;
@@ -224,7 +224,7 @@ section {
     margin: 0 auto;
     color: #13161b;
     font-weight: 500;
-    font-size: 1.3cm;
+    font-size: 1.3em;
     letter-spacing: 0pt;
     word-spacing: 0pt;
 }
@@ -235,7 +235,7 @@ section {
     margin: 0 auto;
     color: #13161b;
     font-weight: 900;
-    font-size: 1.5cm;
+    font-size: 1.5em;
     font-variant: small-caps;
     letter-spacing: .4pt;
     word-spacing: .3pt;
@@ -262,7 +262,7 @@ section {
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input [type="text"]    {
+.reservation input[type="text"]    {
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -280,7 +280,7 @@ section {
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input [type="text"]:hover   {
+.reservation input[type="text"]:hover   {
     box-shadow: 0 0 18px rgba(100, 65, 0, .8);
 }
 
@@ -308,7 +308,7 @@ section {
     text-decoration: underline;
 }
 
-.submit input [type="submit"]   {
+.submit input[type="submit"]   {
     color: rgb(255, 255, 255);
     cursor: pointer;
     border: none;
@@ -326,7 +326,7 @@ section {
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
-.submit input [type="submit"]:hover     {
+.submit input[type="submit"]:hover     {
     color: #000;
     background-color: #8d8e8f;
     box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
